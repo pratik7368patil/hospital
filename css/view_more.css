@@ -35,14 +35,11 @@ body{
 	padding: 0px 10px 0px 10px;
 }
 
-.footer-main {
-	background: #161c2d;
-	padding-top: 100px;
-	padding-bottom: 80px;
-}
 
 .hd-name {
 	color: #003da5;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .text-center-top-head {
@@ -70,6 +67,10 @@ body{
 	color: black;
 }
 
+.main-text {
+	font-size: 20px;
+}
+
 .btn-primary-soft {
 	background-color: lightgray;
     color: #335eea;
@@ -90,6 +91,12 @@ body{
 	padding-top: 70px;
 	padding-bottom: 100px;
 	background-color: #ebf0f8 !important;
+}
+
+.footer-main {
+	background: #161c2d;
+	padding-top: 100px;
+	padding-bottom: 80px;
 }
 
 .footer-img-title {

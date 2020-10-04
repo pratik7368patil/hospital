@@ -74,7 +74,8 @@ body{
 }
 
 .hd-name {
-	color: #003da5;    
+	font-weight: bold;
+	color: #1b1b1b;    
 }
 
 .hed-1 {
@@ -97,6 +98,7 @@ body{
 	width: 1500px;
 	position:relative;
   	z-index:-1;
+  	object-fit: cover;
 }
 
 .pickgradient {
@@ -165,8 +167,8 @@ body{
 }
 
 .btn-primary-soft {
-	background-color: lightgray;
-	color: black;
+	background-color: black;
+	color: white;
 }
 
 .nav-link {
@@ -188,7 +190,7 @@ body{
 #customimg
 {
 	width: 100%;
-    height: 15vw;
+    height: 250px;
     object-fit: cover;
 }
 #custom
@@ -196,6 +198,11 @@ body{
 	width: 100%;
 	height: 15vw;
 	object-fit: contain;
+}
+
+.why-head {
+	font-size: 22px;
+	text-align: center;
 }
 
 .each-section {
@@ -218,6 +225,7 @@ body{
 
 .footer-head-size {
 	padding-left: 10px;
+	color: white;
 	text-decoration: none;
 	font-size: 30px;
 }
