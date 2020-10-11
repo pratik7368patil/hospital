@@ -83,6 +83,10 @@ body{
 	box-shadow: none;
 }
 
+.remove-bullet {
+	list-style-type: none;
+}
+
 .author-card {
 	margin-bottom: 50px;
 }
