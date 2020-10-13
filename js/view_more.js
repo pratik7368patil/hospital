@@ -61,25 +61,58 @@ const data = [
 	}
 ]
 
-const generateQuestion = (queObject) => {
-	let block = document.createElement('li');
+
+const generateCollapseQuestion = (queObject) => {
+	let mainCard = document.createElement('div');
+	mainCard.setAttribute('class', 'card');
+	
+	let mainDiv = document.createElement('div');
+	mainDiv.setAttribute('class', 'card-header');
+	mainDiv.setAttribute('id', `question${queObject.id}heading`);
+	
+	let question = document.createElement('h2');
+	question.setAttribute('class', 'mb-0');
+	
+	let button = document.createElement('button');
+	button.setAttribute('class', 'btn btn-link btn-ablock text-left collapse-link');
+	button.setAttribute('type', 'button');
+	button.setAttribute('data-toggle', 'collapse');
+	button.setAttribute('data-target', `#questioncollapse${queObject.id}`);
+	button.setAttribute('aria-expanded', 'false');
+	button.setAttribute('aria-controls', `questioncollapse${queObject.id}`);
+	button.innerText = queObject.id + ". " + queObject.question;
+	
+	question.appendChild(button);
+	mainDiv.appendChild(question);
+	mainCard.appendChild(mainDiv);
+
+	let mainAboveAns = document.createElement('div');
+	mainAboveAns.setAttribute('id', `questioncollapse${queObject.id}`);
+	mainAboveAns.setAttribute('class', 'collapse');
+	mainAboveAns.setAttribute('aria-labelledby', `question${queObject.id}heading`);
+	mainAboveAns.setAttribute('data-parent', '#collapse-data');
+
+	let cardBody = document.createElement('div');
+	cardBody.setAttribute('class', 'card-body');
+
 	let imgMain = document.createElement('div');
 	let img = document.createElement('img');
 	img.src = queObject.imagePath;
 	img.setAttribute('class', 'card-img-top img-fluid image-center mg');
 
 	imgMain.appendChild(img);
-
-	let que = document.createElement('h3');
-	que.innerText = queObject.id + ". " + queObject.question;
+	cardBody.appendChild(imgMain);
+	
 	let para = document.createElement('p');
 	para.innerText = queObject.answer;
 	para.setAttribute('class', 'main-text text-muted');
-	block.appendChild(que);
-	block.appendChild(imgMain);
-	block.appendChild(para);
+	cardBody.appendChild(para);
 
-	return block;
+	mainAboveAns.appendChild(cardBody);
+	mainCard.appendChild(mainAboveAns);
+
+	return mainCard;
+
 }
 
 
@@ -87,9 +120,9 @@ const generateQuestion = (queObject) => {
 // create that list and add to dom accordingly
 
 const setAllQuestions = (data) => {
-	let mainCollapse = document.querySelector('#collapse_1'); // get element form dom where we need to append our questions
+	let mainCollapse = document.querySelector('#collapse-data'); // get element form dom where we need to append our questions
 	for(let i=0; i < data.length; i++) {
-		mainCollapse.appendChild(generateQuestion(data[i]));
+		mainCollapse.appendChild(generateCollapseQuestion(data[i]));
 	}
 }
 
