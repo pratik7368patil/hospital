@@ -85,14 +85,11 @@ Reviews
 .review {
   background: var(--clr-white);
   padding: 1.5rem 2rem;
-  border-radius: var(--radius);
-  box-shadow: var(--light-shadow);
+  border-radius: var(--radius);  
   transition: var(--transition);
   text-align: center;
 }
-.review:hover {
-  box-shadow: var(--dark-shadow);
-}
+
 .img-container {
   position: relative;
   width: 150px;

@@ -71,56 +71,53 @@ const data1 = [
 	{
 		id: 2,
 		question: "What causes PVD?",
-		answer: "The most common cause of PVD is atherosclerosis, the buildup of plaque inside the artery wall. Plaque reduces the amount of blood flow to the limbs. It also decreases the oxygen and nutrients available to the tissue. Blood clots may form on the artery walls, further decreasing the inner size of the blood vessel and block off major arteries."
-				"Other causes of PVD may include:"
-					"•	Injury to the arms or legs"
-					"•	Irregular anatomy of muscles or ligaments"
-					"•	Infection"
-				"People with coronary artery disease (CAD) often also have PVD.",
+		answer: "The most common cause of PVD is atherosclerosis, the buildup of plaque inside the artery wall. Plaque reduces the amount of blood flow to the limbs. It also decreases the oxygen and nutrients available to the tissue. Blood clots may form on the artery walls, further decreasing the inner size of the blood vessel and block off major arteries. Other causes of PVD may include:",
+		list: {
+			1: "Injury to the arms or legs",
+			2:"Irregular anatomy of muscles or ligaments",
+			3:"Infection",
+			4:"People with coronary artery disease (CAD) often also have PVD."
+		},
 		imagePath: "../img/card1.jpg"
 	},
 	{
 		id: 3,
 		question: "Who is at risk of getting PVD?",
-		answer: "Risk factors for peripheral vascular disease include:"
-					"•	Family history of heart disease, high blood pressure, high cholesterol, or stroke"
-					"•	Older than 50 years"
-					"•	Overweight or obesity"
-					"•	Inactive (sedentary) lifestyle"
-					"•	Smoking"
-					"•	Diabetes"
-					"•	High blood pressure"
-					"•	High cholesterol or LDL (the “bad cholesterol”), plus high triglycerides and low HDL (the “good cholesterol”)",
+		answer: "Risk factors for peripheral vascular disease include:",
+		list: {
+			1: "Family history of heart disease, high blood pressure, high cholesterol, or stroke",
+			2:"Older than 50 years",
+			3:"Overweight or obesity",
+			4:"Inactive (sedentary) lifestyle"
+			5:"Smoking",
+			6:"Diabetes",
+			7:"High blood pressure",
+			8:"High cholesterol or LDL (the 'bad cholesterol'), plus high triglycerides and low HDL (the 'good cholesterol')",
+		},
 		imagePath: "../img/card1.jpg"
 	},
 	{
 		id: 4,
 		question: "What are the Symptoms of PVD?",
-		answer: "•	Pain in the buttocks, hips, thighs, calves, ankles or feet during walking (a condition called claudication)"
-				"•	Pain in the leg, calves, ankles, or feet at rest"
-				"•	Ulceration or gangrene involving the legs, most commonly in the foot/toes"
-				"•	Nerve damage with pain, tingling, or numbness in the lower leg, ankle, and foot"
-				"•	Weakness in the involved leg"
-				"•	Coldness in the lower leg and foot"
-				"•	Weak or absent pulses in the involved leg"
-				"•	Color changes in the involved leg"
-				"•	Erectile dysfunction in men"
-				"In severe cases,"
-				"If the blood supply is very much reduced then you may develop pain even at rest, particularly at night when the legs are raised in bed. Typically, rest pain first develops in the toes and feet rather than in the calves. Sores (ulcers) may develop on the skin of your feet or lower leg if the blood supply to the skin is poor. In a small number of cases, tissue death (gangrene) of a foot may result. However, this is usually preventable (see below).",
+		answer: "",
+		list: {
+			1:"Pain in the buttocks, hips, thighs, calves, ankles or feet during walking (a condition called claudication)",
+			2:"Pain in the leg, calves, ankles, or feet at rest",
+			3:"Ulceration or gangrene involving the legs, most commonly in the foot/toes",
+			4:"Nerve damage with pain, tingling, or numbness in the lower leg, ankle, and foot"
+			5:"Weakness in the involved leg",
+			6:"Coldness in the lower leg and foot",
+			7:"Weak or absent pulses in the involved leg",
+			8:"Color changes in the involved leg",
+			9:"Erectile dysfunction in men",
+			10: "In severe cases, \n If the blood supply is very much reduced then you may develop pain even at rest, particularly at night when the legs are raised in bed. Typically, rest pain first develops in the toes and feet rather than in the calves. Sores (ulcers) may develop on the skin of your feet or lower leg if the blood supply to the skin is poor. In a small number of cases, tissue death (gangrene) of a foot may result. However, this is usually preventable (see below)."
+		},
 		imagePath: "../img/card1.jpg"
 	},
 	{
 		id: 5,
 		question: "What is the prognosis for peripheral arterial disease if left Untreated?",
-		answer: "The longer you wait, the fewer treatment options will be available."
-				"Many PAD treatment options, such as atherectomy, stenting, and angioplasty, are minimally invasive procedures that can often restore full mobility within a week of treatment. However, these treatment options may not be an option in advanced stages of PAD, when the blockage hardens, is spread over large areas, or is in areas too difficult to access. Severe PAD may require bypass graft surgery, which is an invasive surgical procedure with a longer recovery period and more risks. At its latest stages, amputation of the limb with the blocked blood vessel may be the only option to treat PAD."
-				"Some people assume that since their doctor isn’t bringing up peripheral artery disease, it must not be an issue. Risk for PAD increases with age, but can still be found in middle-aged adults. In fact, 1 in 20 adults over the age of 50 have PAD. If you are a smoker, diabetic, or possess any other risk factor for PAD, your chances of experiencing PAD at a younger age are drastically increased.iv"
-
-				"PAD symptoms will worsen over time without medical and/or lifestyle interventions."
-				"PAD is caused by a buildup of plaque within the arteries. The first symptom of PAD is usually pain after walking for a moderate distance, which resolves after a short period of rest. Because the pain resolves itself, patients with PAD will frequently adopt a more sedentary lifestyle, to avoid the discomfort of physical activity. However, over time, the buildup of plaque will worsen, restricting blood supply further until there is discomfort walking shorter and shorter distances, and eventually, many people even experience pain at rest."
-				"The longer you wait, the more expensive, invasive, and inconvenient the treatment will get."
-				"In addition to the increased invasiveness and risks associated with bypass graft surgery in the leg and limb amputation, advanced stage PAD treatments also have longer recovery times, extensive hospital stays, and require physical therapy to return to an independent lifestyle. When compared to a minimally invasive treatment like an angioplasty, there is far less expense, and patients can many times return to work and their normal activities in as little as two days.vi PAD can lead to gangrene."
-				"Peripheral artery disease occurs as a result of blockage of the blood vessels that supply blood to the lower extremities. This blood carries valuable oxygen to nourish the tissues and keep them healthy. When that blood supply is depleted, tissue decomposes, and can result in gangrene. This gangrenous tissue can be both limb- and life-threatening, and should be treated immediately.PAD can lead to amputation.",
+		answer: "The longer you wait, the fewer treatment options will be available. Many PAD treatment options, such as atherectomy, stenting, and angioplasty, are minimally invasive procedures that can often restore full mobility within a week of treatment. However, these treatment options may not be an option in advanced stages of PAD, when the blockage hardens, is spread over large areas, or is in areas too difficult to access. Severe PAD may require bypass graft surgery, which is an invasive surgical procedure with a longer recovery period and more risks. At its latest stages, amputation of the limb with the blocked blood vessel may be the only option to treat PAD. Some people assume that since their doctor isn’t bringing up peripheral artery disease, it must not be an issue. Risk for PAD increases with age, but can still be found in middle-aged adults. In fact, 1 in 20 adults over the age of 50 have PAD. If you are a smoker, diabetic, or possess any other risk factor for PAD, your chances of experiencing PAD at a younger age are drastically increased.iv PAD symptoms will worsen over time without medical and/or lifestyle interventions. PAD is caused by a buildup of plaque within the arteries. The first symptom of PAD is usually pain after walking for a moderate distance, which resolves after a short period of rest. Because the pain resolves itself, patients with PAD will frequently adopt a more sedentary lifestyle, to avoid the discomfort of physical activity. However, over time, the buildup of plaque will worsen, restricting blood supply further until there is discomfort walking shorter and shorter distances, and eventually, many people even experience pain at rest. The longer you wait, the more expensive, invasive, and inconvenient the treatment will get. In addition to the increased invasiveness and risks associated with bypass graft surgery in the leg and limb amputation, advanced stage PAD treatments also have longer recovery times, extensive hospital stays, and require physical therapy to return to an independent lifestyle. When compared to a minimally invasive treatment like an angioplasty, there is far less expense, and patients can many times return to work and their normal activities in as little as two days.vi PAD can lead to gangrene. Peripheral artery disease occurs as a result of blockage of the blood vessels that supply blood to the lower extremities. This blood carries valuable oxygen to nourish the tissues and keep them healthy. When that blood supply is depleted, tissue decomposes, and can result in gangrene. This gangrenous tissue can be both limb- and life-threatening, and should be treated immediately.PAD can lead to amputation.",
 		imagePath: "../img/card1.jpg"
 	},
 	{

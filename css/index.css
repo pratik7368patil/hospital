@@ -112,7 +112,7 @@ body{
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
 }
 .card {
-	box-shadow: 0 0.1rem 0.2rem rgba(0,0,0,.15);
+	/*box-shadow: 0 0.1rem 0.2rem rgba(0,0,0,.15);*/
 	border: none;
 }
 .com-name {
