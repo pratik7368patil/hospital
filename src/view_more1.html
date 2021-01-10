@@ -7,14 +7,14 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="./css/index.css">
-    <link rel="stylesheet" type="text/css" href="./css/view_more.css">
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <link rel="stylesheet" type="text/css" href="../css/view_more.css">
 
     <title>Hospital Name</title>
   </head>
   <body>
     <!-- first contact nav here -->
-  <div class="container">
+  <div class="first-nav">
     <nav class="nav nav-pills nav-justified">
       <a class="nav-item nav-link" href="mailto: arpitkharche35@gmail.com"><strong>Email ID: </strong> xyz@gmail.com</a>
       <a class="nav-item nav-link" href="tel: +91 7218123588"><strong>Mobile Number :</strong> +91 7218123588</a>
@@ -26,8 +26,8 @@
   
   <nav class="navbar sticky-top navbar-expand-lg navbar-light" id="bar" data-spy="affix" data-offset-top="400">
     <div class="#">
-      <a class="navbar-brand" href="index.html">
-      <img src="./img/final_logo.png" width="40" height="40" class="d-inline-block align-top" alt="logo">
+      <a class="navbar-brand" href="../index.html">
+      <img src="../img/final_logo.png" width="40" height="40" class="d-inline-block align-top" alt="logo">
       <span class="head_size">Hospital Name</span>
     </a>
     </div>
@@ -50,13 +50,13 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="new_doc_pro.html">Doc Profile</a>
+          <a class="nav-link" href="./src/new_doc_pro.html">Doc Profile</a>
         </li>
       <li class="nav-item">
-          <a class="nav-link" href="our_association.html">Associations</a>
+          <a class="nav-link" href="./src/our_associations.html">Associations</a>
         </li>
       <li class="nav-item">
-          <a class="nav-link" href="patients_speak.html">Testimonials</a>
+          <a class="nav-link" href="./src/patients_speak.html">Testimonials</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">FAQ's</a>
@@ -68,38 +68,16 @@
       </ul>
     </div>
   </nav>
-
-  <!--Navbar ends here-->
+  
+  <!-- Navbar ends here -->
+  
 
   <article class="container">
-    <div class="row justify-content-center mb-2 ">
-      <h2 class="pt-4 pb-4 mb-4 hd-name">Peripheral Vascular Disease</h2>
+    <div class="row justify-content-center hd-name mb-2 ">
+      <h2 class="pt-4 pb-4 mb-4">What is Peripheral Vascular Disease (PVD)?</h2>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-5">
-          <div class="row dr-identity-card">
-            <div class="card">
-              <div class="card-body">
-                <div class="row">
-                  <div class="col-md-6">
-                    <picture>
-                      <img src="./img/card1.jpg" class="img-fluid">
-                    </picture>
-                  </div>
-                  <div class="col-md-6 pt-4 pb-4 text-center">
-                    <strong>Name : <span>Dr. Name</span></strong><br/>
-                    <strong>MBBS, MD</strong>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-7">
-          <h4 class="text-center text-center-top-head">What is Peripheral Vascular Disease (PVD)?</h4>
-        </div>
-      </div>
+
+    <div class="container main-text">
         <p class="text-muted mb-4">Blood flows from our heart to various parts of our body via blood vessels called arteries. Similarly, 
         the vessels which transport blood back to heart are called veins. Peripheral Vascular Disease is a blood circulation disorder 
         in which blood flow outside of our heart via blood vessels is reduced or blocked. Such blockage can happen both with arteries or 
@@ -123,45 +101,7 @@
 
   <section class="container">
     <div class="accordion" id="collapse-data">
-      <div class="card">
-        <div class="card-header" id="headingOne">
-          <h2 class="mb-0">
-            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              Collapsible Information Item #1
-            </button>
-          </h2>
-        </div>
-
-        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#collapse-data">
-          <div class="card-body">
-            <div class="#">
-              <picture>
-                <img src="./img/card2.jpg" class="card-img-top img-fluid image-center mg">
-              </picture>
-            </div>
-            <p class="text-muted">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
-          </div>
-        </div>
-      </div>
-      <div class="card mt-3 mb-4">
-        <div class="card-header" id="headingTwo">
-          <h2 class="mb-0">
-            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              Collapsible Information Item #2
-            </button>
-          </h2>
-        </div>
-        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#collapse-data">
-          <div class="card-body">
-            <div class="#">
-              <picture>
-                <img src="./img/card2.jpg" class="card-img-top img-fluid image-center mg">
-              </picture>
-            </div>
-            <p class="text-muted">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
-          </div>
-        </div>
-      </div>
+      
     </div>
   </section>
   <!--Collapse ends here-->
@@ -179,28 +119,28 @@
           <div class="col-md-3">
             <div class="card mb-2">
               <picture>
-                <img src="./img/fortis.jpg" class="card-img-top" alt="..." id="custom" >  
+                <img src="../img/fortis.jpg" class="card-img-top" alt="..." id="custom" >  
               </picture>
             </div>
           </div>
           <div class="col-md-3 clearfix d-none d-md-block">
             <div class="card mb-2">
               <picture>
-                <img src="./img/bethany1.png" class="card-img-top" alt="..." id="custom">
+                <img src="../img/bethany1.png" class="card-img-top" alt="..." id="custom">
               </picture>
             </div>
           </div>
           <div class="col-md-3 clearfix d-none d-md-block">
             <div class="card mb-2">
               <picture>
-                <img src="./img/jupiter1.png" class="card-img-top" alt="..." id="custom">
+                <img src="../img/jupiter1.png" class="card-img-top" alt="..." id="custom">
               </picture>
             </div>
           </div>
           <div class="col-md-3 clearfix d-none d-md-block">
             <div class="card mb-2">
               <picture>
-                <img src="./img/godrej.jpg" class="card-img-top" alt="..." id="custom">
+                <img src="../img/godrej.jpg" class="card-img-top" alt="..." id="custom">
               </picture>
             </div>
           </div>
@@ -212,28 +152,28 @@
           <div class="col-md-3">
             <div class="card mb-2">
               <picture>
-                <img src="./img/srv.jpg" class="card-img-top" alt="..." id="custom">
+                <img src="../img/srv.jpg" class="card-img-top" alt="..." id="custom">
               </picture>
             </div>
           </div>
           <div class="col-md-3 clearfix d-none d-md-block">
             <div class="card mb-2">
               <picture>
-                <img src="./img/Masina.png" class="card-img-top" alt="..." id="custom">
+                <img src="../img/Masina.png" class="card-img-top" alt="..." id="custom">
               </picture>
             </div>
           </div>
           <div class="col-md-3 clearfix d-none d-md-block">
             <div class="card mb-2">
               <picture>
-                <img src="./img/sushrut.png" class="card-img-top" alt="..." id="custom">
+                <img src="../img/sushrut.png" class="card-img-top" alt="..." id="custom">
               </picture>
             </div>
           </div>
           <div class="col-md-3 clearfix d-none d-md-block">
             <div class="card mb-2">
               <picture>
-                <img src="./img/kjs.png" class="card-img-top" alt="..." id="custom">
+                <img src="../img/kjs.png" class="card-img-top" alt="..." id="custom">
               </picture>
             </div>
           </div>
@@ -266,7 +206,7 @@
         <div class="col-md-4">
           <div class="footer-img-title">
               <a class="footer-img-title-link" href="#">
-              <img src="./img/final_logo.png" width="40" height="40" class="d-inline-block align-top" alt="logo">
+              <img src="../img/final_logo.png" width="40" height="40" class="d-inline-block align-top" alt="logo">
               <span class="footer-head-size">Hospital Name</span>
             </a>
             </div>
@@ -289,7 +229,8 @@
     </div>
   </footer>
 
-    <!-- Optional JavaScript -->
+    <script type="text/javascript" src="../data/view_more1.js"></script>
+    <script type="text/javascript" src="../js/view_more.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
