@@ -32,6 +32,9 @@ body{
   margin-right: auto;
 }
 
+.accordion {
+	margin-bottom: 20px;
+}
 
 .affix {
   -webkit-transition:padding 0.2s ease-out;
@@ -187,7 +190,7 @@ body{
 	padding-bottom: 30px;
 }
 
-#customimg
+.customimg
 {
 	width: 100%;
     height: 250px;
@@ -214,6 +217,10 @@ body{
 .patients_speak {
 	padding-top: 70px;
 	padding-bottom: 100px;
+}
+
+#social-links {
+	display: flex;
 }
 
 .footer-img-title {

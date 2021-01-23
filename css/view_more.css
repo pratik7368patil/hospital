@@ -79,6 +79,10 @@ body{
 	
 }
 
+.question {
+	font-weight: bold;
+}
+
 .collapse-link:focus {
 	box-shadow: none;
 }
