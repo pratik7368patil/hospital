@@ -31,13 +31,23 @@ const generateCollapseQuestion = (queObject, srNo) => {
 	let cardBody = document.createElement('div');
 	cardBody.setAttribute('class', 'card-body');
 
-	let imgMain = document.createElement('div');
-	let img = document.createElement('img');
-	img.src = queObject.imagePath;
-	img.setAttribute('class', 'card-img-top img-fluid image-center mg');
-
-	imgMain.appendChild(img);
-	cardBody.appendChild(imgMain);
+	// creating DOM element based on it's type
+	if(queObject.videoPath) {
+		let videoContent = `<object width="100%" height="333">
+            <param name="movie" value="${queObject.videoPath}">
+            <embed src="${queObject.videoPath}" type="application/x-shockwave-flash" width="100%" height="333">
+          </object>`;
+        let videoMain = document.createElement('div');
+        videoMain.innerHTML = videoContent;
+        cardBody.appendChild(videoMain);
+	} else if(queObject.imagePath) {
+		let imgMain = document.createElement('div');
+		let img = document.createElement('img');
+		img.src = queObject.imagePath;
+		img.setAttribute('class', 'card-img-top img-fluid image-center mg');
+		imgMain.appendChild(img);
+		cardBody.appendChild(imgMain);
+	}
 	
 	let para = document.createElement('p');
 	para.innerText = queObject.answer;
