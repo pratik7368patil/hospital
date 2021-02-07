@@ -5,31 +5,31 @@ const associationContent = `<div class="row justify-content-center mb-2 ">
 		<div class="container my-4">
 			<div class="regular slider" id="our_associations_slick">
 				<div class="card">
-			      <img src="./../img/Bethany.jpg">
+			      <img src="./../img/Bethany.jpg" alt="Bethany">
 			    </div>
 			    <div class="card">
-			      <img src="./../img/fortis.jpg">
+			      <img src="./../img/fortis.jpg" alt="fortis">
 			    </div>
 			    <div class="card">
-			      <img src="./../img/godrej.jpg">
+			      <img src="./../img/godrej.jpg" alt="godrej">
 			    </div>
 			    <div class="card">
-			      <img src="./../img/jupiter.jpg">
+			      <img src="./../img/jupiter.jpg" alt="jupiter">
 			    </div>
 			    <div class="card">
-			      <img src="./../img/kjsomaiya.jpg">
+			      <img src="./../img/kjsomaiya.jpg" alt="kjsomaiya">
 			    </div>
 			    <div class="card">
-			      <img src="./../img/Masina.png">
+			      <img src="./../img/Masina.png" alt="Masina">
 			    </div>
 			    <div class="card">
-			      <img src="./../img/srv.jpg">
+			      <img src="./../img/srv.jpg" alt="srv">
 			    </div>
 			    <div class="card">
-			      <img src="./../img/sushrut.png">
+			      <img src="./../img/sushrut.png" alt="sushrut">
 			    </div>
 			    <div class="card">
-			      <img src="./../img/ussh.png">
+			      <img src="./../img/ussh.png" alt="ussh">
 			    </div>
 			</div>
 		</div>

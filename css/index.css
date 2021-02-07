@@ -36,6 +36,16 @@ body{
   margin-right: auto;
 }
 
+.association-img {
+	height: 150px;
+}
+
+.customimg {
+	width: 100%;
+	height: 250px;
+	object-fit: cover;
+}
+
 .accordion {
 	margin-bottom: 20px;
 }

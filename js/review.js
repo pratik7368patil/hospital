@@ -2,35 +2,59 @@
 const reviews = [
   {
     id: 1,
-    name: "Susan Smith",
+    name: "Parvati Aghoram",
     img:
       "https://picsum.photos/200",
     text:
-      "I'm baby meggings twee health goth +1. Bicycle rights tumeric chartreuse before they sold out chambray pop-up. Shaman humblebrag pickled coloring book salvia hoodie, cold-pressed four dollar toast everyday carry",
+      "‘I am happy that I can walk again’. I have been dr ashutosh’s patient for diabetic foot ulcer . During this time I have received excellent care. he is an excellent interventionist and he is fully aware of the medical procedures. He gives enough time to listen to all the queries during consultations and over the phone. His advice has always been so rewarding to me. he has been in several locations that were always easy for me to reach. I would highly recommend this doctor.",
   },
   {
     id: 2,
-    name: "anna johnson",
+    name: "Ramamoorthy",
     img:
       "https://picsum.photos/200",
     text:
-      "Helvetica artisan kinfolk thundercats lumbersexual blue bottle. Disrupt glossier gastropub deep v vice franzen hell of brooklyn twee enamel pin fashion axe.photo booth jean shorts artisan narwhal.",
+      "You gave me renewed hope. Thank you, Dr Ashutosh. I underwent PTBD procedure by him and I must say he is the best doctor for interventional oncology treatment.",
   },
   {
     id: 3,
-    name: "peter jones",
+    name: "Anup Damodar",
     img:
       "https://picsum.photos/200",
     text:
-      "Sriracha literally flexitarian irony, vape marfa unicorn. Glossier tattooed 8-bit, fixie waistcoat offal activated charcoal slow-carb marfa hell of pabst raclette post-ironic jianbing swag.",
+      "It was a very good experience with Dr ashutosh, one of the most calm and composed doctors I have met till date. He very patiently answered all  my questions regarding my condition and the treatment to be followed. I am very much thankful I am getting treated by him for my IVC narrowing. I would definitely recommend him.",
   },
   {
     id: 4,
-    name: "bill anderson",
+    name: "Meenakshi Jain",
     img:
       "https://picsum.photos/200",
     text:
-      "Edison bulb put a bird on it humblebrag, marfa pok pok heirloom fashion axe cray stumptown venmo actually seitan. VHS farm-to-table schlitz, edison bulb pop-up 3 wolf moon tote bag street art shabby chic. ",
+      "Thank you dr ashutosh for your timely intervention and care of my blocked AV fistula. Even though my situation was a complicated one, after consulting many doctors you finally guided us properly through the situation and I could resume my dialysis as required  .",
+  },
+  {
+    id: 5,
+    name: "NM Batliwala",
+    img:
+      "https://picsum.photos/200",
+    text:
+      "dr ashutosh is a very good doctor as well as a great person. I am consulting him for my varicose veins and ulcer which I was suffering since 10 years. Because of his excellent skills not only did my varicose veins disappear but because of the proper after care that he gave for my ulcer I was ultimately pain free  . ",
+  },
+  {
+    id: 6,
+    name: "Kalpana Joshi",
+    img:
+      "https://picsum.photos/200",
+    text:
+      "I had a large hemangioma on my hand since birth which looked ugly and had started to pain which is when my family doctor suggested dr ashutosh . I am very happy with his way of approach and his work.  My hemangioma has decreased in size and did not pain since then. Thank you sir.",
+  },
+  {
+    id: 7,
+    name: "Sulochana Singh",
+    img:
+      "https://picsum.photos/200",
+    text:
+      "It was a very satisfying experience being guided by Dr Ashutosh for my Varicose veins treatment, right from the manner in which he patiently explained my disease and various treatment options to me and my family to the way in which he carried out the procedure. Dr Ashutosh left a lasting impression on us. His attention to minute details I believe is one of this best qualities.  Thank you doctor for your time and patience.",
   },
 ];
 // select items

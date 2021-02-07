@@ -2,44 +2,44 @@ const data = [
 	{
 		id: 1,
 		image: "./img/card1.jpg",
-		title: "Card Title",
-		content: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+		title: "Aortic Aneurysm/Dissection",
+		content: "Interventional radiology has become an integral part of patient care services offered at many secondary...",
 		link: "./src/gosomewhere1.html"
 	},
 	{
 		id: 2,
-		image: "./img/card1.jpg",
-		title: "Card Title",
-		content: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-		link: "./src/gosomewhere1.html"
+		image: "./img/card2.jpg",
+		title: "Interventional Neuroradiology",
+		content: "No matter what kind of neurovascular challenge you face, we are prepared to support...",
+		link: "./src/gosomewhere2.html"
 	},
 	{
 		id: 3,
-		image: "./img/card1.jpg",
-		title: "Card Title",
-		content: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-		link: "./src/gosomewhere1.html"
+		image: "./img/card3.jpg",
+		title: "Hepatobiliary",
+		content: "Our Interventional Radiology team of interventionalists have dedicated their professional lives to...",
+		link: "./src/gosomewhere3.html"
 	},
 	{
 		id: 4,
-		image: "./img/card1.jpg",
-		title: "Card Title",
-		content: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-		link: "./src/gosomewhere1.html"
+		image: "./img/card4.jpeg",
+		title: "Women's Health: Why choose us?",
+		content: "The emergence of interventional radiology procedures has provided significant benefit to the management of certain...",
+		link: "./src/gosomewhere4.html"
 	},
 	{
 		id: 5,
-		image: "./img/card1.jpg",
-		title: "Card Title",
-		content: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-		link: "./src/gosomewhere1.html"
+		image: "./img/card5.png",
+		title: "Arteriovenous Malformations",
+		content: "Children and adults with vascular malformations are best managed with a multidisciplinary team of specialists...",
+		link: "./src/gosomewhere5.html"
 	},
 	{
 		id: 6,
-		image: "./img/card1.jpg",
-		title: "Card Title",
-		content: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-		link: "./src/gosomewhere1.html"
+		image: "./img/card6.jpg",
+		title: "Emergency care",
+		content: "Interventional radiology has become an integral part of patient care services offered at many secondary and...",
+		link: "./src/gosomewhere6.html"
 	},
 ]
 
