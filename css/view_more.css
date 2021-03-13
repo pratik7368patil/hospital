@@ -53,8 +53,15 @@ body{
 
 .card {
 	border-radius: 0;
-	box-shadow: 0 0.1rem 0.2rem rgba(0,0,0,.15) !important;
+	box-shadow: 0 0.1rem 0.2rem rgba(0,0,0,.15);
 	border: none;
+}
+
+.dynamic-card {
+	box-shadow: none !important;
+}
+.dynamic-card-head {
+	background: none;	
 }
 
 .mg {

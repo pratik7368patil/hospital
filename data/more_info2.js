@@ -1,5 +1,8 @@
 const data = [
 	{
+		heading: "Stroke: ",
+	},
+	{
 		id: 1,
 		question: "What is stroke?",
 		answer: "A stroke occurs when the blood supply to part of your brain is interrupted or reduced, preventing brain tissue from getting oxygen and nutrients. Brain cells begin to die in minutes."+
@@ -51,7 +54,7 @@ const data = [
 				"Headache. A sudden, severe headache, which may be accompanied by vomiting, dizziness or altered consciousness, may indicate that you're having a stroke.",
 				"Trouble walking. You may stumble or lose your balance. You may also have sudden dizziness or a loss of coordination.",
 		],	
-		imagePath: "../img/lable13.jpg"
+		//imagePath: "../img/lable13.jpg"
 	},
 	{
 		id: 4,
@@ -65,7 +68,7 @@ const data = [
 					"Pain. Pain, numbness or other unusual sensations may occur in the parts of the body affected by stroke. For example, if a stroke causes you to lose feeling in your left arm, you may develop an uncomfortable tingling sensation in that arm.",
 					"Changes in behavior and self-care ability. People who have had strokes may become more withdrawn. They may need help with grooming and daily chores.",
 		],
-		imagePath: "../img/lable14.jpg"
+		//imagePath: "../img/lable14.jpg"
 	},
 	{
 		id: 5,
@@ -77,7 +80,7 @@ const data = [
 				"Speech. Ask the person to repeat a simple phrase. Is his or her speech slurred or strange?",
 				"Time. If you observe any of these signs, call for emergency medical help immediately.",
 		],
-		imagePath: "../img/lable15.jpg"
+		//imagePath: "../img/lable15.jpg"
 	},
 	{
 		id: 6,
@@ -87,7 +90,7 @@ const data = [
 				"Medical Treatment with Alteplase IV r-tPA \n Considered the gold standard, tissue plasminogen activator – r-tPA (otherwise known as alteplase) is approved by the Food and Drug Administration to treat ischemic stroke, which is caused when a vessel supplying blood to the brain is blocked.",
 				"Doctors administer Alteplase IV r-tPA through an IV in the arm, dissolving the clot and improving blood flow to the part of the brain being deprived. Many people don’t arrive at the hospital in time to receive the medication, which can save lives and reduce long-term effects of stroke. So it’s important to identify stroke and seek treatment immediately.",
 		],
-		imagePath: "../img/lable16.jpg"
+		//imagePath: "../img/lable16.jpg"
 	},
 	{
 		id: 7,
@@ -110,8 +113,11 @@ const data = [
 		//imagePath: "../img/card1.jpg"
 	},
 	{
+		heading: "Carotid Artery Stenting: "
+	},
+	{
 		id: 9,
-		question: "1)	Where is the carotid artery, and what does it look like?",
+		question: "Where is the carotid artery, and what does it look like?",
 		answer: "The carotid artery is in the neck.  There are usually two carotid arteries, one on each side of the neck (so called left carotid artery and right carotid artery). The carotid arteries start deep at the base of the neck, within the chest.  They pass up through the neck, close to the front, and at about the level of the angle of the lower jaw divide, one branch supplying the tissues of the face and scalp, the other heading towards the base of the brain.  The brain is supplied with blood from the two carotid arteries, along with two other arteries (the vertebral arteries), joining together to ensure the brain receives the blood that it needs. ",
 		//imagePath: "../img/card1.jpg"
 	},
@@ -219,10 +225,13 @@ const data = [
 		//imagePath: "../img/card1.jpg",
 	},
 	{
+		heading: "Cerebral Aneurysm: "
+	},
+	{
 		id: 17,
 		question: "What is an Aneurysm?",
 		answer: "An aneurysm is an abnormal outpouching of an artery's wall. Aneurysms affecting the arteries supplying the brain can cause a stroke. If the aneurysm ruptures, blood flows into the space surrounding the brain called the subarachnoid space. A patient with a subarachnoid hemorrhage usually suffers a severe headache followed by nausea, vomiting, irritation and lethargy. Double vision, neck stiffness, weakness, loss of sensation, and loss of consciousness can also occur.",
-		imagePath: "../img/lable127a.jpg"
+		//imagePath: "../img/lable127a.jpg"
 
 	},
 	{
@@ -360,7 +369,7 @@ const data = [
 		question: "Balloon-Assisted Coiling",
 		answer: "The balloon-assisted coiling (BAC; aka remodeling technique) for expansion of EVT to wide-neck IAs. A nondetachable balloon is temporarily inflated in front of the neck of the aneurysm during each coil placement. In sidewall aneurysms, the balloon is simply placed in the parent vessel in front of the aneurysm neck. In bifurcation aneurysms, the approach is more complex. Several options are available, including use of 2 balloons, use of a hyper-compliant balloon, use of a round-shaped balloon, or use of a double lumen balloon. At the end of the procedure, the balloon is deflated and removed, and no device is left in place unless a stenting is performed subsequently (see below)."+
 				"\n Figure 3. Ruptured internal carotid artery aneurysm with wide neck. A, Digital subtraction angiography (lateral view) shows the aneurysm (arrow). B and C, The balloon (white arrow) is inflated during the deposition of the coils (black arrow). It is deflated and retrieved at the end of the procedure. D, The final control angiogram shows complete occlusion of the aneurysm.",
-		imagePath: "../img/card17.jpg"
+		//imagePath: "../img/card17.jpg"
 	},
 	{
 		id: 28,

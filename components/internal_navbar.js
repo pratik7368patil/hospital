@@ -14,8 +14,7 @@ const content = `<!-- first contact nav here -->
   <nav class="navbar sticky-top navbar-expand-lg navbar-light" id="bar" data-spy="affix" data-offset-top="400">
   	<div class="#">
   		<a class="navbar-brand" href="../index.html">
-			<img src="../img/final_logo.png" width="40" height="40" class="d-inline-block align-top" alt="logo">
-			<span class="head_size"><b>Modern Endovascular Clinic</b></span>
+			<img src="https://res.cloudinary.com/hospitalphotos/image/upload/r_0,c_crop,q_80,fl_progressive/f_auto,c_fit/v1615617108/newlogo_ovxyvr.png" width="170px" height="80px" class="d-inline-block align-top" alt="logo">
 		</a>
   	</div>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 	aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

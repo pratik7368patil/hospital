@@ -1,9 +1,10 @@
-const generateCollapseQuestion = (queObject, srNo) => {
+let srNo = 1;
+const generateCollapseQuestion = (queObject, num) => {
 	let mainCard = document.createElement('div');
-	mainCard.setAttribute('class', 'card');
+	mainCard.setAttribute('class', 'card dynamic-card');
 	
 	let mainDiv = document.createElement('div');
-	mainDiv.setAttribute('class', 'card-header');
+	mainDiv.setAttribute('class', 'card-header dynamic-card-head');
 	mainDiv.setAttribute('id', `question${queObject.id}heading`);
 	
 	let question = document.createElement('h2');
@@ -16,7 +17,8 @@ const generateCollapseQuestion = (queObject, srNo) => {
 	button.setAttribute('data-target', `#questioncollapse${queObject.id}`);
 	button.setAttribute('aria-expanded', 'false');
 	button.setAttribute('aria-controls', `questioncollapse${queObject.id}`);
-	button.innerText = srNo + ". " + queObject.question;
+	button.innerText = num + ". " + queObject.question;
+	srNo++;
 	
 	question.appendChild(button);
 	mainDiv.appendChild(question);
@@ -56,12 +58,12 @@ const generateCollapseQuestion = (queObject, srNo) => {
 
 	// add list items here
 
-	function makeList(item) {
-		let olELe = document.createElement('ol');
+	function makeList(item, listType) {
+		let olELe = document.createElement(listType);
 		for (let i =  0; i < item.length; i++) {
 			let liEle = document.createElement('li');
 			if(Array.isArray(item[i])) {
-				olELe.appendChild(makeList(item[i]));
+				olELe.appendChild(makeList(item[i], 'ul'));
 			} else {
 				liEle.innerText = item[i];
 			}
@@ -73,7 +75,7 @@ const generateCollapseQuestion = (queObject, srNo) => {
 	}
 
 	if(queObject.list) {
-		cardBody.appendChild(makeList(queObject.list));
+		cardBody.appendChild(makeList(queObject.list, 'ol'));
 	}
 
 	mainAboveAns.appendChild(cardBody);
@@ -87,10 +89,23 @@ const generateCollapseQuestion = (queObject, srNo) => {
 // to generate inner list we can add list in object in data and check for each if it exists then 
 // create that list and add to dom accordingly
 
+function generateHeading(obj) {
+	let head = document.createElement('h2');
+	head.setAttribute('class', 'dynamic-heading')
+	head.innerText = obj.heading;
+
+	return head;
+}
+
 const setAllQuestions = (data) => {
 	let mainCollapse = document.querySelector('#collapse-data'); // get element form dom where we need to append our questions
 	for(let i=0; i < data.length; i++) {
-		mainCollapse.appendChild(generateCollapseQuestion(data[i], i+1));
+		if(data[i].heading) { 
+			mainCollapse.appendChild(generateHeading(data[i]));
+			srNo = 1;
+		} else {
+			mainCollapse.appendChild(generateCollapseQuestion(data[i], srNo));
+		}
 	}
 }
 

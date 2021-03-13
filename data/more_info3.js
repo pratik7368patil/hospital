@@ -42,7 +42,7 @@ const data = [
 		id: 7,
 		question: "Is TIPSS permanent and what happens next?",
 		answer: "The stent that the radiologist has put in between your liver vein and your portal vein will stay in for the rest of your life. It can, however, become blocked and in order to prevent this the radiologist will ask you to attend the X-ray department regularly for ultrasound examinations to check your liver. With ultrasound, the radiologist will be able to see the TIPSS and see if it is becoming blocked. If at any time he or she thinks it is, they will ask you to come to the X-ray department for a day and will perform a very simple procedure to unblock the TIPSS. This procedure will not require a general anaesthetic. If you are having a liver transplant, then the radiologist will check the TIPSS until you have your transplant. If you are not having a liver transplant, you may have to come for regular checks for at least five years.",
-		imagePath: "../img/card17.jpg"
+		//imagePath: "../img/card17.jpg"
 	},
 	{
 		id: 8,

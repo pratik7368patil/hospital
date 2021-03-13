@@ -1,5 +1,8 @@
 const data = [
 	{
+		heading: "Therapeutic Procedure:"
+	},
+	{
 		id: 311,
 		question: "What is liver cancer?",
 		answer: "Liver cancer is the growth and spread of unhealthy cells in the liver. Cancer that starts in the liver is called primary liver cancer. Cancer that spreads to the liver from another organ is called metastatic liver cancer.",
@@ -116,6 +119,9 @@ const data = [
 		question: "Approx. Stay in hospital? ",
 		answer: "We have very fast and competent working team which provide you comfortable atmosphere and ease your nerves. Usual time of stay is around 2-3 Days. \n You can resume your work after 1 week if existing disease allows.",
 		//imagePath: "../img/card1.jpg"
+	},
+	{
+		heading: "Supportive Procedures:"
 	},
 	{
 		id: 1,
