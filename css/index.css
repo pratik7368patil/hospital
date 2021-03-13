@@ -256,6 +256,12 @@ body{
 	text-align: center;
 }
 
+.dynamic-heading {
+	padding: 20px 0px 20px 0px;
+	font-weight: bold;
+	color: #6c757d!important;
+}
+
 .each-section {
 	padding-top: 70px;
 	padding-bottom: 100px;
@@ -269,6 +275,16 @@ body{
 
 #social-links {
 	display: flex;
+}
+
+#social-links .social-icons {
+	height: 45px;
+	width: 45px;
+}
+
+#social-links .social-icons img {
+	height: 100%;
+	width: 100%;
 }
 
 .footer-img-title {

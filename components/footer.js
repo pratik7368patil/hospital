@@ -1,8 +1,7 @@
 const footer = `<div class="row">
 <div class="col-md-4">
     <div class="footer-img-title">			  	
-        <img src="./img/final_logo.png" width="40" height="40" class="d-inline-block align-top" alt="logo">
-        <span class="footer-head-size">Modern Endovascular Clinic</span>
+        <img src="https://res.cloudinary.com/hospitalphotos/image/upload/r_0,c_crop,q_80,fl_progressive/f_auto,c_fit/v1615617108/newlogo_ovxyvr.png" width="170px" height="80px" class="d-inline-block align-top" alt="logo">
       </div>
     <h3 class="text-white">Dr. Ashutosh Dattatraya Kharche</h3>
     <p class="text-muted">MD, FVIR</p>
@@ -23,10 +22,7 @@ const footer = `<div class="row">
             <a href="https://www.linkedin.com/in/ashutosh-kharche-47a153119/" target="_blank"><img src="./img/linkedin-icon.svg" alt="linkedin icon"></a>
         </div>
         <div class="social-icons mr-3">
-            <img src="./img/facebook-icon.svg" alt="facebook icon">
-        </div>
-        <div class="social-icons mr-3">
-            <img src="./img/instagram-icon.svg" alt="instagram icon">
+            <a href="https://twitter.com/ModernEndovasc1?s=08" target="_blank"><img src="./img/twitter.svg" alt="twitter icon"></a>
         </div>
     </div>
 </div>

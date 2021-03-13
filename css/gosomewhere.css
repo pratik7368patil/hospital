@@ -1,3 +1,9 @@
 .leave-space {
 	margin-bottom: 100px;
 }
+.dynamic-card {
+	box-shadow: none !important;
+}
+.dynamic-card-head {
+	background: none;	
+}

@@ -1,5 +1,8 @@
 const data = [
 	{
+		heading: "Venous Leg Ulcer Varicose Veins and Spider Vein: ",
+	},
+	{
 		id: 1,
 		question: "What are varicose veins?",
 		answer: "Varicose veins are abnormally enlarged veins that appear most often on the legs. They are typically blue, purple, or skin-colored; and they appear as dilated, twisting and bulging vessels that may be raised above the surface of the skin.",
@@ -58,6 +61,9 @@ const data = [
 		question: "What is the approximate stay in Hospital and when can I Resume to work?",
 		answer: "We have very fast and competent working team which provide you comfortable atmosphere and ease your nerves. It is usually a day care procedure. Resume to work? You can resume your work very next day of the procedure preferably in 2- 3 days.",
 		//imagePath: "../img/card1.jpg"
+	},
+	{
+		heading: "Arterial leg Ulcer-Diabetic Foot Treatment:",
 	},
 	{
 		id: 11,

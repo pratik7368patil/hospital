@@ -79,7 +79,7 @@ const data = [
 		id: 7,
 		question: "Adjunctive Venoplasty and Stenting",
 		answer: "Post-thrombectomy evaluation of the venous segment may reveal areas of venous compression, stenosis or recalcitrant thrombus in some of the patients.  May-Thurner anatomy is the most common anatomic variant found on completion imaging during the treatment of proximal DVT . This syndrome is characterized by compression of the left common iliac vein by the right common iliac artery against the fifth lumbar vertebra, resulting in venous compression, development of venous scar tissue and eventually venous stenosis. This condition then predisposes the patient to left iliofemoral DVT.  With anticoagulation alone, untreated iliac vein obstruction prevents vessel recanalization in 70–80% of patients and clot propagation may continue in up to 40% of cases. Further, patients with iliofemoral DVT and untreated May-Thurner anatomy experience an increased risk of recurrent DVT and universally experience symptoms of post-thrombotic syndrome during follow-up. Adequate treatment of anatomic compression, stenosis or persistent small thrombus after CDT or PMT requires angioplasty and stenting.",
-		imagePath: "../img/card17.jpg"
+		//imagePath: "../img/card17.jpg"
 	},
 	{
 		id: 8,

@@ -1,5 +1,8 @@
 const data = [
 	{
+		heading: "Vascular Malformations: "
+	},
+	{
 		id: 1,
 		question: "What is a vascular malformation?",
 		answer: "A vascular malformation is an abnormal development of blood vessels. They might be found in the large arteries and veins, in smaller vessels called arterioles and venules, in microscopic capillaries, and/or in the lymphatic channels that carry lymphatic fluid and white blood cells outside of the arteries and veins.",
@@ -62,7 +65,7 @@ const data = [
 		id: 7,
 		question: "What are the treatment options for Ateriovenous Malformation?",
 		answer: "AVMs are very complicated.  It is important that treatment and follow up is carried out and supervised by an endovascular interventional Radiologist team. \n Treatment options range from endovascular therapy to Surgery to Endovascular therapy. ",
-		imagePath: "../img/card17.jpg"
+		//imagePath: "../img/card17.jpg"
 	},
 	{
 		id: 8,
