@@ -1,8 +1,6 @@
 let srNo = 1;
-const generateCollapseQuestion = (queObject, num) => {
-	let mainCard = document.createElement('div');
-	mainCard.setAttribute('class', 'card dynamic-card');
-	
+
+function generateCollapseField(queObject, num, isChild) {
 	let mainDiv = document.createElement('div');
 	mainDiv.setAttribute('class', 'card-header dynamic-card-head');
 	mainDiv.setAttribute('id', `question${queObject.id}heading`);
@@ -11,24 +9,45 @@ const generateCollapseQuestion = (queObject, num) => {
 	question.setAttribute('class', 'mb-0');
 	
 	let button = document.createElement('button');
-	button.setAttribute('class', 'btn btn-link btn-ablock text-left collapse-link');
+	button.setAttribute('class', `btn btn-link btn-ablock text-left collapse-link ${isChild ? "style-view-more-collapse-inner" : "style-view-more-collapse"}`);
 	button.setAttribute('type', 'button');
 	button.setAttribute('data-toggle', 'collapse');
 	button.setAttribute('data-target', `#questioncollapse${queObject.id}`);
 	button.setAttribute('aria-expanded', 'false');
 	button.setAttribute('aria-controls', `questioncollapse${queObject.id}`);
-	button.innerText = num + ". " + queObject.question;
+	button.innerText = (num ? num + ". " : "") + queObject.question;
 	srNo++;
 	
 	question.appendChild(button);
 	mainDiv.appendChild(question);
-	mainCard.appendChild(mainDiv);
 
+	return mainDiv;
+}
+
+function generateInnerCollapseField(queObject, parent) {
 	let mainAboveAns = document.createElement('div');
 	mainAboveAns.setAttribute('id', `questioncollapse${queObject.id}`);
 	mainAboveAns.setAttribute('class', 'collapse');
 	mainAboveAns.setAttribute('aria-labelledby', `question${queObject.id}heading`);
-	mainAboveAns.setAttribute('data-parent', '#collapse-data');
+	mainAboveAns.setAttribute('data-parent', parent);
+
+	return mainAboveAns;
+}
+
+function generateHeadCard() {
+	let mainCard = document.createElement('div');
+	mainCard.setAttribute('class', 'card dynamic-card');
+
+	return mainCard;
+}
+
+const generateCollapseQuestion = (queObject, num, parent) => {
+	let mainCard = generateHeadCard();
+	
+	let mainDiv = generateCollapseField(queObject, num, true);
+	mainCard.appendChild(mainDiv);
+
+	let mainAboveAns = generateInnerCollapseField(queObject, parent);
 
 	let cardBody = document.createElement('div');
 	cardBody.setAttribute('class', 'card-body');
@@ -53,7 +72,7 @@ const generateCollapseQuestion = (queObject, num) => {
 	
 	let para = document.createElement('p');
 	para.innerText = queObject.answer;
-	para.setAttribute('class', 'main-text text-muted');
+	para.setAttribute('class', 'main-text lead text-center text-md-left text-muted txt-1');
 	cardBody.appendChild(para);
 
 	// add list items here
@@ -62,6 +81,7 @@ const generateCollapseQuestion = (queObject, num) => {
 		let olELe = document.createElement(listType);
 		for (let i =  0; i < item.length; i++) {
 			let liEle = document.createElement('li');
+			liEle.setAttribute('class', 'lead text-center text-md-left text-muted');
 			if(Array.isArray(item[i])) {
 				olELe.appendChild(makeList(item[i], 'ul'));
 			} else {
@@ -89,22 +109,25 @@ const generateCollapseQuestion = (queObject, num) => {
 // to generate inner list we can add list in object in data and check for each if it exists then 
 // create that list and add to dom accordingly
 
-function generateHeading(obj) {
-	let head = document.createElement('h2');
-	head.setAttribute('class', 'dynamic-heading')
-	head.innerText = obj.heading;
-
-	return head;
-}
-
 const setAllQuestions = (data) => {
 	let mainCollapse = document.querySelector('#collapse-data'); // get element form dom where we need to append our questions
+	let headMain = generateHeadCard();
+	let headingField;
+	let headingQuestions;
+	let parent;
 	for(let i=0; i < data.length; i++) {
 		if(data[i].heading) { 
-			mainCollapse.appendChild(generateHeading(data[i]));
+			let id = Math.floor(Math.random() * 342659);
+			parent = `#questioncollapse${id}`;
+			headingField = generateCollapseField({id: id, question: data[i].heading}, null, false)			
+			headingQuestions = generateInnerCollapseField({id: id}, '#collapse-data');
+			headingField.appendChild(headingQuestions);
+			mainCollapse.appendChild(headingField);
 			srNo = 1;
 		} else {
-			mainCollapse.appendChild(generateCollapseQuestion(data[i], srNo));
+			if(headingQuestions) {
+				headingQuestions.appendChild(generateCollapseQuestion(data[i], srNo, parent));
+			}
 		}
 	}
 }

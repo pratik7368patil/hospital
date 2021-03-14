@@ -1,5 +1,8 @@
 const data = [
 	{
+		heading: "Deep Vein Thorombosis"
+	},
+	{
 		id: 1,
 		question: "What is Deep Vein Thorombosis?",
 		answer: "Veins are the blood vessels that transport blood from various body parts to the heart."+

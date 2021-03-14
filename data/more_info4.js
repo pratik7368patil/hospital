@@ -1,5 +1,8 @@
 const data = [
 	{
+		heading: "Uterine Fibroid Embolisation",
+	},
+	{
 		id: 1,
 		question: "What is uterine fibroid embolisation?",
 		answer: "UFE is a non surgical way of treating fibroids by blocking off the arteries that feed the fibroids, the uterine arteries, and making the fibroids shrink. It is performed by an interventional radiologist, rather than a surgeon, and is an alternative to an operation. UFE was first performed in 1995, and since then over 200,000 women have had the procedure performed, world-wide. As with all relatively new procedures, a careful data collection and audit will be performed. ",

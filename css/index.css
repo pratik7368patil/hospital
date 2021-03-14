@@ -26,6 +26,22 @@ body{
 	font-size: 20px;
 }
 
+h2 {
+	color: #003da5 !important;
+}
+
+.style-view-more-collapse {
+	font-size: 22px;
+	font-weight: 500px;
+	color: #003da5 !important;
+}
+
+.style-view-more-collapse-inner {
+	font-size: 22px;
+	font-weight: 500px;
+	color: #2b2b2b95 !important;
+}
+
 .bot-effect {
 	margin-top: 20px;
 }
@@ -91,7 +107,7 @@ body{
 }
 
 .hd-name {
-	font-weight: bold;
+	font-weight: 500;
 	color: #1b1b1b;    
 }
 
@@ -258,7 +274,7 @@ body{
 
 .dynamic-heading {
 	padding: 20px 0px 20px 0px;
-	font-weight: bold;
+	font-weight: 500;
 	color: #6c757d!important;
 }
 

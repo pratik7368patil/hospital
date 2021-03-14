@@ -24,6 +24,9 @@ const footer = `<div class="row">
         <div class="social-icons mr-3">
             <a href="https://twitter.com/ModernEndovasc1?s=08" target="_blank"><img src="./../img/twitter.svg" alt="twitter icon"></a>
         </div>
+        <div class="social-icons mr-3">
+            <a href="https://instagram.com/modern_endovascular_clinic?igshid=1rs40sghslbwk" target="_blank"><img src="./../img/instagram-icon.svg" alt="twitter icon"></a>
+        </div>
     </div>
 </div>
 </div>
