@@ -9,6 +9,10 @@ body{
 	font-size: 25px;
 }
 
+.view_3 h4 {
+	color: #003da5 !important;	
+}
+
 .image-center {
 	display: block;
   margin-left: auto;
