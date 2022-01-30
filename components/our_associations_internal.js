@@ -36,37 +36,41 @@ const associationContent = `<div class="row justify-content-center mb-2 ">
 
 		<div class="row justify-content-center mt-4">
 			<a href="./our_associations.html">Want to check more!</a>
-		</div>`
+		</div>`;
 
-let associations = document.getElementById('our_associations');
+let associations = document.getElementById("our_associations");
 associations.innerHTML = associationContent;
 
 $("#our_associations_slick").slick({
-	centerMode: true,
-	slidesToShow: 3,
-	slidesToScroll: 3,
-	prevArrow: '<button type="button" class="slick-prev"><i class="bi bi-arrow-left-circle-fill"></i></button>',
-	nextArrow: '<button type="button" class="slick-next"><i class="bi bi-arrow-right-circle-fill"></i></button>',
-	responsive: [{
+  centerMode: true,
+  slidesToShow: 3,
+  slidesToScroll: 3,
+  prevArrow:
+    '<button type="button" class="slick-prev"><i class="bi bi-arrow-left-circle-fill"></i></button>',
+  nextArrow:
+    '<button type="button" class="slick-next"><i class="bi bi-arrow-right-circle-fill"></i></button>',
+  responsive: [
+    {
       breakpoint: 1024,
       settings: {
         slidesToShow: 3,
         slidesToScroll: 1,
-        infinite: true
-      }
-    }, {
+        infinite: true,
+      },
+    },
+    {
       breakpoint: 600,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 1,
         slidesToScroll: 1,
-      }
-    }, {
-
+      },
+    },
+    {
       breakpoint: 450,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
-      }
-
-    }]
+      },
+    },
+  ],
 });

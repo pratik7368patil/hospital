@@ -1,4 +1,4 @@
-const navbar = document.getElementById('dynamic-navbar');
+const navbar = document.getElementById("dynamic-navbar");
 
 const content = `<!-- first contact nav here -->
   <div class="first-nav">
@@ -28,16 +28,16 @@ const content = `<!-- first contact nav here -->
 	          Services
 	        </a>
 	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-	   	     	<a class="dropdown-item" href="../src/gosomewhere1.html">Aortic Aneurysm/Dissection</a>
-	          	<a class="dropdown-item" href="../src/gosomewhere2.html">Interventional Neuroradiology</a>
-	          	<a class="dropdown-item" href="../src/gosomewhere3.html">Hepatobiliary</a>
-	          	<a class="dropdown-item" href="../src/gosomewhere4.html">Women's Health: Why choose us? </a>
-	          	<a class="dropdown-item" href="../src/gosomewhere5.html">Arteriovenous Malformations</a>
-	          	<a class="dropdown-item" href="../src/gosomewhere6.html">Emergency care</a>
+	   	     	<a class="dropdown-item" href="../src/aortic-aneurysm.html">Aortic Aneurysm/Dissection</a>
+	          	<a class="dropdown-item" href="../src/neurovascular-conditions-we-treat.html">Interventional Neuroradiology</a>
+	          	<a class="dropdown-item" href="../src/liver-disease.html">Hepatobiliary</a>
+	          	<a class="dropdown-item" href="../src/women-health.html">Women's Health: Why choose us? </a>
+	          	<a class="dropdown-item" href="../src/arteriovenous-malformations.html">Arteriovenous Malformations</a>
+	          	<a class="dropdown-item" href="../src/emergency-care.html">Emergency care</a>
 	        </div>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="new_doc_pro.html">Doc Profile</a>
+	        <a class="nav-link" href="doc_profile.html">Doc Profile</a>
 	      </li>
 		  <li class="nav-item">
 	        <a class="nav-link" href="our_associations.html">Associations</a>
@@ -54,7 +54,6 @@ const content = `<!-- first contact nav here -->
 	      
 	    </ul>
 	  </div>
-	</nav>`
-
+	</nav>`;
 
 navbar.innerHTML = content;
